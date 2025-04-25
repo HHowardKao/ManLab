@@ -10,11 +10,7 @@ import { X, Facebook, Instagram } from "iconoir-react";
 export default function ProfileCard() {
   return (
     <Card className="max-w-xs ">
-      <Card.Header
-        as="img"
-        src="./public/image/professor.png"
-        alt="profile-picture"
-      />
+      <Card.Header as="img" src="/image/professor.png" alt="profile-picture" />
 
       <Card.Body className="text-center">
         <Typography type="h5">嚴大任</Typography>
