@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Card, Typography, Button } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 export default function CardDemo() {
   return (
@@ -14,7 +15,9 @@ export default function CardDemo() {
         <Typography className="my-1 text-foreground">簡單介紹</Typography>
       </Card.Body>
       <Card.Footer>
-        <Button>點擊查看更多</Button>
+        <Link to="/project1">
+          <Button>點擊查看更多</Button>
+        </Link>
       </Card.Footer>
     </Card>
   );

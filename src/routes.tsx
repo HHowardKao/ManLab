@@ -7,6 +7,7 @@ import Research from "./pages/research";
 import Alumni from "./pages/alumni";
 import Activity from "./pages/activity";
 import Collaborator from "./pages/collaborator";
+import Research1 from "./pages/research1";
 const Routes: RouteObject[] = [
   {
     path: "/",
@@ -23,6 +24,10 @@ const Routes: RouteObject[] = [
   {
     path: "/research",
     element: <Research />,
+  },
+  {
+    path: "/project1",
+    element: <Research1 />,
   },
   {
     path: "/alumni",
