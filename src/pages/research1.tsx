@@ -25,7 +25,7 @@ const Research: React.FC = () => {
           travel along a metal-dielectric or metal-air interface with the
           frequency at infrared or visible ranges depending on the plasma
           frequency of metal. (As shown in Fig. 1(a)1)
-          <img src="./public/image/project1.png" alt="" />
+          <img src="/image/project1.png" alt="" />
           Fig. 1. (a) Schematic representation of an electron density wave
           propagating along a metal – dielectric interface and (b) Dispersion
           curve of Surface plasmon polaritons and incident light. To excite an
@@ -41,7 +41,7 @@ const Research: React.FC = () => {
           and a is the periodicity. The light cone is translational-shifted
           corresponding to f = 2nπ/a, thus intersecting with the dispersion
           curve of SPP as shown in Fig. 2(b).
-          <img src="./public/image/project1-2.png" alt="" />
+          <img src="/image/project1-2.png" alt="" />
           SPR-2 new Fig. 2. (a) SPP Excitation by Grating Coupler and (b) The
           extra wave momentum is provided by the grating. On the other hand, a
           prism can be positioned against a thin metal film in the Kretschmann
